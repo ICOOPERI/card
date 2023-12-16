@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-    width: 350px;
+    width: 320px;
     background-color: #242424;
     border-radius: 10px;
     height: 430px;
@@ -67,20 +67,20 @@ body {
 }
   
 .topContainer.expanded {
-    transform: translate(0px, -34px);
+    transform: translate(0px, -15px);
 }
 
 .container.expanded .bottomContainer {
     display: block;
     padding: 10px;
-    width: 350px;
+    width: 320px;
     margin-top: -50px;
 }
 
 .container.expanded {
     height: 750px;
     transform: translate(0px, 160px);
-    width: 350px;
+    width: 320px;
 
 }
 
