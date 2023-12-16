@@ -6,8 +6,8 @@ body {
     margin: 0;
     font-family: 'Trebuchet MS';
     background: linear-gradient(45deg, rgba(56,249,250,1) 0%, rgba(104,104,230,1) 51%, rgba(161,0,246,1) 100%);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
 }
   
 @keyframes gradient {
@@ -85,21 +85,20 @@ body {
     height: 750px;
     transform: translate(0px, 160px);
     width: 320px;
-
 }
 
 .avatar {
-	width: 220px;
-	height: 220px;
-	border-radius: 1000px;
-	margin: 10px;
+    width: 220px;
+    height: 220px;
+    border-radius: 1000px;
+    margin: 10px;
 }
 
 .nickname {
     font-family: "Roboto", sans-serif;
     color: white;
-	margin: 0;
-	margin: 10px;
+    margin: 0;
+    margin: 10px;
     text-align: center;
 }
 
@@ -107,11 +106,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    -webkit-tap-highlight-color: rgba(0,0,0,0); 
+    -webkit-tap-highlight-color: transparent;
 }
 
 .social-links-rectangle {
     display: flex;
     overflow: hidden;
+    -webkit-tap-highlight-color: rgba(0,0,0,0); 
+    -webkit-tap-highlight-color: transparent;
 }
 
 .dscont{
