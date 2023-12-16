@@ -47,6 +47,8 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
+    -webkit-tap-highlight-color: rgba(0,0,0,0); 
+    -webkit-tap-highlight-color: transparent;
 }
 
 .rotate {
@@ -58,6 +60,8 @@ body {
     width: 64px;
     height: 64px;
     filter: brightness(0) invert(1);
+    -webkit-tap-highlight-color: rgba(0,0,0,0); 
+    -webkit-tap-highlight-color: transparent;
 }
 
 .bottomContainer {
