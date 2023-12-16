@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-    width: 420px;
+    width: 350px;
     background-color: #242424;
     border-radius: 10px;
     height: 430px;
@@ -73,14 +73,14 @@ body {
 .container.expanded .bottomContainer {
     display: block;
     padding: 10px;
-    width: 400px;
+    width: 350px;
     margin-top: -50px;
 }
 
 .container.expanded {
     height: 750px;
     transform: translate(0px, 160px);
-    width: 420px;
+    width: 350px;
 
 }
 
